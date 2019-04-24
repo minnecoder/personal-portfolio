@@ -1,7 +1,6 @@
 import React from "react"
 
 import { Container, Jumbotron, Row, Col } from "react-bootstrap"
-import { Link } from "gatsby"
 
 import "./footer.css"
 import "../../fontawesome/css/all.min.css"

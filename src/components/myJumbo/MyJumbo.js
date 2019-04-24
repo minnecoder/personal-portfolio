@@ -1,5 +1,5 @@
 import React from "react"
-import SocialRow from "../SocialRow/SocialRow"
+
 
 import { Jumbotron } from "react-bootstrap"
 
@@ -21,7 +21,7 @@ const MyJumbo = props => (
       <span>
         <p>{props.body2}</p>
       </span>
-      <SocialRow />
+   
     </div>
   </Jumbotron>
 )

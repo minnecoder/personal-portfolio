@@ -15,9 +15,25 @@ export default () => (
         body={
           "Here are a collection of all of my blog posts"
         }
-        title={"Blog Posts"}
+        title={"Blog"}
       />
-
+<Container>
+    <Row>
+        <Col>
+        <h2>Blog Posts</h2>
+        </Col>
+    </Row>
+    <Row>
+        <Col>
+        <div className="blog-entry">
+        <h4>Blog Title</h4>
+        <h5>Date</h5>
+        <p>.... This is where the text for the blog excerpt will go....</p>
+        
+        </div>
+        </Col>
+    </Row>
+</Container>
 
 
 

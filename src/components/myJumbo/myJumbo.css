@@ -1,5 +1,5 @@
 .myjumbo {
-  min-height: 26rem;
+  min-height: 10rem;
 }
 
 .myjumbo h1 {
@@ -14,7 +14,7 @@
   font-size: 1.7rem;
 }
 .myjumbo_content {
-  margin-top: 6.5rem;
+  margin-top: 1.5rem;
   width: 100%;
   padding: 1rem;
 }

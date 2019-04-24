@@ -8,7 +8,7 @@ import "./summary.css"
 
 const Summary = () => (
   <Container className="content" fluid>
-    <h3>Cool Recent Tech I use:</h3>
+    <h3>My Current Tech Stack:</h3>
     <br />
     <Row className="text-center tech_icons">
       <Col>
@@ -27,7 +27,7 @@ const Summary = () => (
         <span>HTML5</span>
       </Col>
       <Col>
-        <i className="fab fa-css3 hover_effect" />
+        <i className="fab fa-css3-alt hover_effect" />
         <br />
         <span>CSS3</span>
       </Col>
