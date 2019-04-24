@@ -20,13 +20,18 @@ const MyNavbar = () => (
         <li className="float_right">
           {/* eslint-disable-next-line */}
           <a
-            href="https://www.github.com/"
+            href="https://www.github.com/minnecoder"
             target="_blank"
             rel="noopener noreferrer"
             className="menu_link"
           >
             GitHub
           </a>
+        </li>
+        <li className="float_right">
+          <Link to="/blog" className="menu_link">
+            Blog
+          </Link>
         </li>
         <li className="float_right">
           <Link to="/projects" className="menu_link">

@@ -8,7 +8,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
+        href="https://www.github.com/minnecoder"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/seanparkin"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +28,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://twitter.com/"
+        href="https://twitter.com/minnecoder"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -39,7 +39,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/minnecoder"
         target="_blank"
         rel="noopener noreferrer"
       >
