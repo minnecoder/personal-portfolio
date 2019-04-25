@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import "./myNavbar.css"
+import './myNavbar.css'
 
 const MyNavbar = () => (
-  <div className="top_border" style={{ marginBottom: "0px", width: "100%" }}>
+  <div className="top_border" style={{ marginBottom: '0px', width: '100%' }}>
     <div
       style={{
         margin: `0 auto`,
@@ -15,7 +15,7 @@ const MyNavbar = () => (
     >
       <ul className="nav_styles">
         <li className="float_left">
-          <i className="fas fa-frog" />
+          <i className="fab fa-dev" />
         </li>
         <li className="float_right">
           {/* eslint-disable-next-line */}

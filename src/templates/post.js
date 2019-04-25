@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import Layout from '../components/layout/Layout'
+import '../pages/index.css'
+
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data

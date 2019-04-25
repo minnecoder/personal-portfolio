@@ -9,7 +9,7 @@ import MyButton from '../components/myButton/MyButton'
 import '../fontawesome/css/all.min.css'
 import './index.css'
 
-const blog = ({ data }) => (
+const BlogPage = ({ data }) => (
   <div className="App">
     <Layout>
       <MyJumbo body="Here are a collection of all of my blog posts" title="Blog" />
@@ -19,15 +19,19 @@ const blog = ({ data }) => (
             <h2>Blog Posts</h2>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <div className="blog-entry">
-              <h4>Blog Title</h4>
-              <h5>Date</h5>
-              <p>.... This is where the text for the blog excerpt will go....</p>
-            </div>
-          </Col>
-        </Row>
+        {data.allMarkdownRemark.edges.map(blog => (
+          <Row>
+            <Col>
+              <div className="blog-entry" key={blog.node.id}>
+                <h4>
+                  <Link to={blog.node.frontmatter.path}>{blog.node.frontmatter.title}</Link>
+                </h4>
+                <h5>{blog.node.frontmatter.date}</h5>
+                <div dangerouslySetInnerHTML={{ __html: blog.node.excerpt }} />
+              </div>
+            </Col>
+          </Row>
+        ))}
       </Container>
     </Layout>
   </div>
@@ -51,4 +55,4 @@ export const pageQuery = graphql`
     }
   }
 `
-export default blog
+export default BlogPage
