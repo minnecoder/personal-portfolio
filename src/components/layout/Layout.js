@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
-import SEO from "../Seo"
-import MyNavbar from "../navbar/MyNavbar"
-import Footer from "./Footer"
+import SEO from '../Seo'
+import MyNavbar from '../navbar/MyNavbar'
+import Footer from './Footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
