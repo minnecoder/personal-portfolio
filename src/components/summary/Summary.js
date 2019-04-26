@@ -28,24 +28,29 @@ const Summary = () => (
         <br />
         <span>CSS3</span>
       </Col>
+      <Col>
+        <i className="fab fa-sass hover_effect" />
+        <br />
+        <span>Sass</span>
+      </Col>
     </Row>
     <br />
 
     <h4 className="goal_text text-center">
-      My biggest goal as an Engineer is to never stop learning, and work on cool stuff. Here's a couple of things I'm
-      good at:
+      Part of being a web developer is that you will always be learning. I have taken this to heart and have been
+      dabbling in a few other technologies. They are listed below:
     </h4>
     <Row style={{ marginTop: '1.8rem' }}>
       <Col>
-        <h4 className="hover_effect">Tagline1</h4>
+        <h4 className="hover_effect">Gatsby</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod maiores maxime suscipit assumenda
-          vitae, incidunt doloremque ab voluptate, atque explicabo ea adipisci. Et quibusdam odit expedita quis officia
-          minima!
+          GatsbyJS is a static site generator that uses React. Even though Gatsby does use React, the files that are
+          output are HTML, CSS, and JS files. One of the points for Gatsby is that the websites that made with Gatsby
+          are very fast. If you didn't know this website is built with Gatsby
         </p>
       </Col>
       <Col>
-        <h4 className="hover_effect">Tagline2</h4>
+        <h4 className="hover_effect">NodeJS</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi reiciendis. Placeat quia facilis neque,
           corporis ullam maiores eaque quos autem voluptatibus, minus totam animi quo sint ea, atque sit?
@@ -55,14 +60,11 @@ const Summary = () => (
     <br />
     <Row>
       <Col>
-        <h4 className="hover_effect">Tagline3</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, consequuntur. Ipsum deserunt veniam molestias
-          odio rerum repudiandae officia quasi magnam at sint, amet commodi ad quisquam explicabo ab quia saepe?
-        </p>
+        <h4 className="hover_effect">MongoDB</h4>
+        <p>MongoDB is a non-relational database that uses documents that are layed out like JSON objects.</p>
       </Col>
       <Col>
-        <h4 className="hover_effect">Tagline4</h4>
+        <h4 className="hover_effect">APIs</h4>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi odio illum accusamus eum optio
           voluptatum corporis beatae impedit, molestias maxime obcaecati totam maiores eius voluptate ex animi minus

@@ -1,13 +1,14 @@
 .button_styles {
-  border-style: solid;
+  /* border-style: solid; */
+  background: #18a4e0;
   padding: 3px;
   border-radius: 1rem;
   margin-bottom: 3px;
-  color: blueviolet;
+  color: #fff;
 }
 
 .button_styles:hover {
-  color: black;
+  background: #0253b3;
 }
 
 @media (max-width: 550px) {

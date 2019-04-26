@@ -1,7 +1,6 @@
 import React from 'react'
-
 import { Jumbotron } from 'react-bootstrap'
-
+import PropTypes from 'prop-types'
 import './myJumbo.css'
 
 /* ########### PROPS ########## 
@@ -28,3 +27,9 @@ const MyJumbo = ({ title, body, body2 }) => (
 )
 
 export default MyJumbo
+
+MyJumbo.propTypes = {
+  title: PropTypes.string,
+  body: PropTypes.string,
+  body2: PropTypes.string,
+}
