@@ -3,7 +3,6 @@ import Layout from '../components/layout/Layout'
 
 import Hero from '../components/hero/Hero'
 import Summary from '../components/summary/Summary'
-import Projects from '../components/projects/Projects'
 
 // import bootstrap styles
 import '../bootstrap/css/bootstrap.min.css'
@@ -17,8 +16,6 @@ const index = () => (
       <Hero />
       <hr />
       <Summary />
-      <hr />
-      <Projects />
       <hr />
     </Layout>
   </div>

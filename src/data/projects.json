@@ -1,6 +1,6 @@
 [
   {
-    "img": "../images/portfolio/cabin.png",
+    "img": "cabin.png",
     "title": "Cool React app",
     "date": "2019-03-28",
     "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
@@ -8,7 +8,7 @@
     "hostedURL": "http://www.google.com"
   },
   {
-    "img": "project2Picture",
+    "img": "mountains.png",
     "title": "Project 2 title goes here",
     "date": "2019-03-03",
     "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
@@ -16,7 +16,7 @@
     "hostedURL": "https://www.google.com"
   },
   {
-    "img": "project3Picture",
+    "img": "game.png",
     "title": "Project 3 title",
     "date": "2019-02-12",
     "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
