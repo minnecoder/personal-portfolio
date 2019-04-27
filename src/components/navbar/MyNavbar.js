@@ -38,11 +38,11 @@ const MyNavbar = () => (
             Projects
           </Link>
         </li>
-        <li className="float_right">
+        {/* <li className="float_right">
           <Link to="/about" className="menu_link">
             About
           </Link>
-        </li>
+        </li> */}
         <li className="float_right">
           <Link to="/" className="menu_link">
             Home

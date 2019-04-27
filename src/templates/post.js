@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import Layout from '../components/layout/Layout'
 import '../pages/index.css'
@@ -12,6 +12,9 @@ export default function Template({ data }) {
     <Layout>
       <Helmet title={`Sean Parkin - ${post.frontmatter.title}`} />
       <div className="blogPost">
+        <Link to="/blog" className="linkButton">
+          Back to Blogs
+        </Link>
         <h1>{post.frontmatter.title}</h1>
         <h3>{post.frontmatter.date}</h3>
 

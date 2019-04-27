@@ -21,8 +21,8 @@ const about = () => (
       <hr />
       <Container fluid>
         <Row style={{ marginTop: '2rem', marginBottom: '1.5rem' }}>
-          <MyButton text="CV download" URL={CV} />
-          <MyButton text="Other Downloadable" URL={other} />
+          {/* <MyButton text="CV download" URL={CV} />
+          <MyButton text="Other Downloadable" URL={other} /> */}
         </Row>
         <Row>
           <Col>

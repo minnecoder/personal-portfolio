@@ -52,8 +52,9 @@ const Summary = () => (
       <Col>
         <h4 className="hover_effect">NodeJS</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi reiciendis. Placeat quia facilis neque,
-          corporis ullam maiores eaque quos autem voluptatibus, minus totam animi quo sint ea, atque sit?
+          NodeJS is a event driven JavaScript runtime that is used as the "backend" of a JavaScript application. A
+          couple of the things that NodeJS can be used for is to create an API endpoint for an applicaiton. Another use
+          is data processing of an application that is too complex to be done in the browser
         </p>
       </Col>
     </Row>
@@ -61,23 +62,20 @@ const Summary = () => (
     <Row>
       <Col>
         <h4 className="hover_effect">MongoDB</h4>
-        <p>MongoDB is a non-relational database that uses documents that are layed out like JSON objects.</p>
+        <p>
+          MongoDB is a non-relational database that uses documents that are layed out like JSON objects. One of the
+          advantages of using MongoDB over SQL is the amount of flexibility that it gives.
+        </p>
       </Col>
       <Col>
         <h4 className="hover_effect">APIs</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi odio illum accusamus eum optio
-          voluptatum corporis beatae impedit, molestias maxime obcaecati totam maiores eius voluptate ex animi minus
-          aperiam!
+          APIs are one way to interact with the backend of an application. With the use of an API data can be sent back
+          and forth to do one of the CRUD methods. One popular use is with an inventory management system.
         </p>
       </Col>
     </Row>
     <br />
-    <h4 className="goal_text text-center">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem praesentium tenetur blanditiis repellendus
-      facilis maiores ducimus cumque, nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero error
-      mollitia.
-    </h4>
   </Container>
 )
 

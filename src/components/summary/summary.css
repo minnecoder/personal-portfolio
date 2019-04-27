@@ -6,13 +6,15 @@
   margin-bottom: 2.5rem;
   background: #eff2f4;
 }
-
+.content h3 {
+  font-size: 1.8rem;
+}
 .tech_icons i {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .tech_icons span {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .goal_text {
   padding: 1.5em 0;
